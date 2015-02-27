@@ -1,0 +1,20 @@
+<doctype html>
+<html>
+	<head>
+		<script>
+		function init() {
+			var num = Math.floor(Math.random() * 2) + 1
+			document.getElementById("scissors").src="scissors"+num+".jpg";
+		}
+	</script>
+	<style>
+		img {
+			
+			height: 100%;
+		}
+	</style>
+	</head>
+	<body onload="init()">
+		<img id="scissors" src="" alt="what colour are these scissors??" />
+	</body>
+</html>
